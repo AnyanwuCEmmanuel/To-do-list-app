@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the to-do list -->
+    <div class="container">
+        <!-- Heading -->
+        <div id="heading">
+            <h2>TO DO LIST</h2>
+        </div>
+
+        <!-- Input field and Add button -->
+        <div>
+            <input type="text" placeholder="ADD YOUR LIST" id="taskInput">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <!-- Control buttons: Select All and Delete All -->
+        <div class="controls">
+            <button id="select-all-btn">Select All</button>
+            <button id="delete-all-btn">Delete All</button>
+        </div>
+
+        <!-- List container -->
+        <div>
+            <ul id="list">
+                <!-- Tasks will be dynamically inserted here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to external JS file -->
+    <script src="index.js"></script> 
+</body>
+</html>

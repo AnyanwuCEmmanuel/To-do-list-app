@@ -1,0 +1,129 @@
+/* ------------------- BODY ------------------- */
+body{
+    background-image: url('to do list background.jpeg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container{
+    width: 90%;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    min-height: 50vh;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    background-color: #f5f0e6;
+}
+
+/* Remove default list style */
+#list{
+    list-style: none;
+}
+
+/* Input box styling */
+#taskInput{
+    border-radius: 50px;
+    background-color: #fffaf0 ;
+    margin: transparent 25px ;
+    padding: 15px 20px;
+    flex: 1;
+    width: 70%;
+    font-size: 1.1em;
+    border: none;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+/* Heading styling */
+#heading{
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add button styling */
+#addBtn{
+    padding: 15px 20px;
+    border-radius: 35px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addBtn:hover{
+   background-color: #45a049;
+   cursor: pointer;
+}
+
+/* List items */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Task text styling */
+li span{
+    font-size: 1.2em;
+    margin-left: 10px;
+    flex: 1;
+}
+
+/* Delete button in list */
+li button.deleteBtn{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for delete button */
+li button.deleteBtn:hover{
+    background-color: #d32f23;
+}
+
+/* Checkbox styling */
+.checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: green;
+    cursor: pointer;
+}
+
+/* Select All and Delete All buttons */
+#select-all-btn, #delete-all-btn{
+    border: none;
+    border-radius: 12px;
+    padding: 10px 5px;
+    background: #a0522d;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hover effect for control buttons */
+#select-all-btn:hover, #delete-all-btn:hover{
+    background: #c07a5a;
+}
+
+/* Container for control buttons */
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 10px;
+}
