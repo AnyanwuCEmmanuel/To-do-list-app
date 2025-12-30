@@ -1,6 +1,6 @@
 /* ------------------- BODY ------------------- */
 body{
-    background-image: url('to do list background.jpeg');
+    background-image: url(To-do\ list\ background.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -126,4 +126,5 @@ li button.deleteBtn:hover{
     align-items: center;
     margin: 20px 0;
     padding: 0 10px;
+
 }
